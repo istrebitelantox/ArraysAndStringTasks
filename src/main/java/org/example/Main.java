@@ -21,5 +21,6 @@ public class Main {
         System.out.println("Перевод в нижний регистр : "+hello.toLowerCase());
         System.out.println("Перевод в верхний регистр : "+hello.toUpperCase());
         System.out.println("Замена слова в строке : "+love.replace("люблю","ненавижу"));
+        System.out.println(love.startsWith("Я")&love.endsWith("ние"));
     }
 }
